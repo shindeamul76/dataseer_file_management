@@ -3,6 +3,9 @@ import express, { Application, urlencoded, json } from 'express';
 import type { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import { StatusCodes } from 'http-status-codes';
+import { fileRouters } from '@routes/upload-file-routes';
+import { userRouters } from '@routes/user-route';
+
 
 const app: Application = express();
 
@@ -21,6 +24,8 @@ app.get('/_health', (req: Request, res: Response) => {
   });
 });
 
+app.use('/api/v1', fileRouters)
+app.use('/api/v1', userRouters)
 
 
 // Handle 404 errors

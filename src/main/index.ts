@@ -5,6 +5,7 @@ dotenv.config();
 import app from '@main/app';
 import { PORT } from '@main/config';
 import http from "http";
+import logger from "@lib/winston";
 
 const server = http.createServer(app);
 
@@ -13,7 +14,7 @@ const server = http.createServer(app);
 const start = async (): Promise<void> => {
   try {
 
-    server.listen(PORT, () => console.log(`Server is running on port http://localhost:${PORT}...`));
+    server.listen(PORT, () => logger.info(`Server is running on port http://localhost:${PORT}...`));
 
   } catch (error: any) {
     throw new Error("Unable to connect to db")
