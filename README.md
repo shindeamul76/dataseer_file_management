@@ -12,7 +12,6 @@
 
   <p>
     <a href="https://github.com/shindeamul76/"><img alt="Build Status" src="https://img.shields.io/badge/github-profile-blue" /></a>
-  </p>
     <a href="#"><img alt="Build Status" src="https://img.shields.io/badge/File%20the%20Management-8A2BE2" /></a>
   </p>
 </div>
