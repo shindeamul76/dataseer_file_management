@@ -34,7 +34,7 @@
 
 ## Check Locally on postman
 
-    https://www.loom.com/share/e914f32414db47dc8316ab91816de02b?sid=fcbc2b89-21a3-4a3d-9547-fd0c241c2015
+https://www.loom.com/share/e914f32414db47dc8316ab91816de02b?sid=fcbc2b89-21a3-4a3d-9547-fd0c241c2015
 
 
 ## Getting Started
