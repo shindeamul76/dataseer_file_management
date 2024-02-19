@@ -11,7 +11,8 @@
     "dev": "yarn run build && nodemon -L --watch ./dist ./dist/main/index.js",
     "start:dev": "concurrently --kill-others-on-fail \"yarn run build:watch\" \"yarn run dev\"",
     "db:push": "npx prisma db push",
-    "db:generate": "npx prisma generate"
+    "db:generate": "npx prisma generate",
+    "db:studio": "npx prisma studio"
   },
   "keywords": [
     "File Management",
